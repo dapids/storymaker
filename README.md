@@ -1,2 +1,2 @@
-# storymaker
-Make your own stories with no effort
+# Storymaker
+Thrill your imagination with random stories
