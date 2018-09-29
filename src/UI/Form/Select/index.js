@@ -8,6 +8,7 @@ const Select = styled.select`
   color: ${palette.text};
   display: inline-block;
   font-family: Lato, sans-serif;
+  font-size: 16px;
   height: 40px;
   padding: 8px;
   width: 100%;
