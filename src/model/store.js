@@ -7,6 +7,10 @@ const reducers = combineReducers({
   stories,
 })
 
-export const store = createStore(reducers, composeWithDevTools())
+const middlewares = process.env.NODE_ENV === 'production'
+  ? undefined
+  : composeWithDevTools()
+
+export const store = createStore(reducers, middlewares)
 
 export default undefined
