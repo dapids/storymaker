@@ -35,7 +35,7 @@
     "start": "NODE_PATH=src react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "serve": "node server.js",
-    "heroku-postbuild": "yarn && yarn build"
+    "heroku-postbuild": "yarn build"
   },
   "devDependencies": {
     "eslint": "5.2.0",
